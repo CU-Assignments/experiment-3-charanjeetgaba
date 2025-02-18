@@ -21,6 +21,9 @@ public static void main(String[] args) {
 
 }
 }
+//OUTPUT     
+    // Enter a Number: -15
+    // Java.lang.ArithmeticException: Cannot calculate the square root of a negative number
 
 //MEDIUM
 import java.util.Scanner;
@@ -54,6 +57,11 @@ public class Exp3M {
             scanner.close();
         }
     } }
+//OUTPUT
+    //Enter PIN: 1307
+    //Withdraw Amount: 5000
+    //Error: Insufficient balance.
+    //Current Balance: 3000.0
 
 //HARD
 class CourseFullException extends Exception {
@@ -165,4 +173,8 @@ public class UniversityEnrollmentSystem {
         }
     }
 }
-
+//OUTPUT     
+    // Complete Core Java before enrolling in Advanced Java
+    //Atul has been successfully enrolled in Advance Java
+    //Charanjeet has been successfully enrolled in Core Java
+    //Atul has been successfully enrolled in Core Java
